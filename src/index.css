@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+@theme {
+	--cardImg: calc(50% - 36px);
+}
