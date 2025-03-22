@@ -5,7 +5,6 @@ import error from '../assets/error.svg'
 import info from '../assets/info.svg'
 import congratulations from '../assets/congratulations.svg'
 import attention from '../assets/attention.svg'
-import bannerCSS from './banner.css'
 
 const banner = cva({
     variants: {
