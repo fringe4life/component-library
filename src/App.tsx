@@ -7,10 +7,6 @@ function App() {
 
   return (
     <main className="bg-neutral-500 min-h-dvh">
-      
-
-
-      <br />
       <div className="flex flex-col gap-2 items-center min-w-dvw">
         <Badge colorChoice="red" shape="square">Hello badge!</Badge>
         <Card>
