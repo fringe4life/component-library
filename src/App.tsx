@@ -7,11 +7,12 @@ function App() {
 
   return (
     <main className="bg-neutral-500 min-h-dvh">
-      <Badge colorChoice="red" shape="square">Hello badge!</Badge>
+      
 
 
       <br />
       <div className="flex flex-col gap-2 items-center min-w-dvw">
+        <Badge colorChoice="red" shape="square">Hello badge!</Badge>
         <Card>
           <Card.Icon src={cardIcon} alt="an upload icon for uploading to the web" />
           <Card.Title>Easy Deployment</Card.Title>
@@ -24,10 +25,7 @@ function App() {
         </Card>
 
         <Banner intent='attention'>
-          <Banner.Paragraph intent="header">This is an error</Banner.Paragraph>
-          {/* <Banner.Paragraph intent="body">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut nesciunt, ab dignissimos facilis laudantium dolorum vitae similique amet accusantium unde nisi deleniti incidunt explicabo accusamus, quis quo itaque perspiciatis nostrum!
-          </Banner.Paragraph> */}
+          <Banner.Paragraph intent="header">This is an attention</Banner.Paragraph>
         </Banner>
       </div>
     </main>
